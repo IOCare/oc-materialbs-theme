@@ -1,8 +1,8 @@
-name: oc-materialbs-theme
+name: Material Bootstrap
 description: 'Material theme with Bootstrap 3+ support'
 author: 'Rajendra Khope'
 homepage: 'http://iocare.in'
-code: oc-materialbs-theme
+code: iocare-bootstrap
 form:
     fields:
         site_name:
