@@ -1,0 +1,23 @@
+description = "Material Bootstrap Default layout"
+==
+<?php
+function onStart()
+{
+    if($this->page->id=="allelements")
+    {
+        $this->addCss('//fezvrasta.github.io/snackbarjs/dist/snackbar.min.css');
+        $this->addJs('//cdnjs.cloudflare.com/ajax/libs/noUiSlider/6.2.0/jquery.nouislider.min.js');
+         $this->addJs('//fezvrasta.github.io/snackbarjs/dist/snackbar.min.js');
+    }
+    
+}
+?>
+==
+{% partial 'header' %}
+
+{% partial 'navigation' %}
+
+<!-- Content -->
+{% page %}
+
+{% partial 'footer' %}

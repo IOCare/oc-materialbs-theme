@@ -1,0 +1,23 @@
+{
+    "name": "iocare/oc-materialbs-theme",
+    "type": "october-theme",
+    "description": "Material Bootstrap theme",
+    "keywords": ["Material", "Bootstrap", "bootstrapmaterial", "theme"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rajendra Khope",
+            "email": "research@iocare.in",
+            "role": "Co-founder"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

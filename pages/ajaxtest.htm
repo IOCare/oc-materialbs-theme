@@ -1,0 +1,26 @@
+title = "ajaxtest"
+url = "/ajaxtest"
+layout = "default"
+is_hidden = "0"
+==
+<?php
+function onTest()
+{
+    $value1 = post('value1');
+    $value2 = post('value2');
+    $this['result'] = $value1 + $value2;
+}
+?>
+==
+<div class="container">
+    <div class="well">
+        <h3>Welcome to ajax test</h3>
+        
+        <form data-request="onTest" data-request-update="calcresult: '#result'">
+            <input type="text" name="value1">
+            <input type="text" name="value2">
+            <input type="submit" value="Calculate">
+        </form>
+        <div id="result"></div>
+        
+    </div>

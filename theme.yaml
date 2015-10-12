@@ -1,0 +1,24 @@
+name: oc-materialbs-theme
+description: 'Material theme with Bootstrap 3+ support'
+author: 'Rajendra Khope'
+homepage: 'http://iocare.in'
+code: oc-materialbs-theme
+form:
+    fields:
+        site_name:
+            label: 'Site name'
+            comment: 'The website name as it should appear on the front-end'
+            default: Material Bootstrap
+    tabs:
+        fields:
+            meta_title:
+                label: 'Meta title'
+                tab: Metadata
+                default: Material Bootstrap
+            meta_keywords:
+                label: 'Meta keywords'
+                tab: Metadata
+            meta_description:
+                label: 'Meta description'
+                tab: Metadata
+                default: 'Material Bootstrap Theme'

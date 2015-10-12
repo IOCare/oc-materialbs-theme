@@ -1,0 +1,58 @@
+==
+<!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; {{ this.theme.site_name }} 2015</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </div>
+    <!-- /.container -->
+
+	<!-- Scripts -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+	<script src="{{ [
+		'assets/jquery/dist/jquery.min.js',
+		'assets/bootstrap-3.3.5-dist/js/bootstrap.min.js',
+		'assets/bootstrap-material-design/dist/js/ripples.min.js',
+		'assets/bootstrap-material-design/dist/js/material.min.js',
+		'assets/javascript/app.js'
+	]|theme }}"></script>
+
+{% put scripts %}
+
+    {% if (this.page.id=="allelements") %}
+        <script>
+            $(function() {
+                $.material.init();
+                $(".shor").noUiSlider({
+                    start: 40,
+                    connect: "lower",
+                    range: {
+                        min: 0,
+                        max: 100
+                    }
+                });
+
+                $(".svert").noUiSlider({
+                    orientation: "vertical",
+                    start: 40,
+                    connect: "lower",
+                    range: {
+                        min: 0,
+                        max: 100
+                    }
+                });
+            });
+        </script>
+    {% endif %}
+{% endput %}
+
+	{% framework extras %}
+	{% scripts %}
+
+  </body>
+</html>
