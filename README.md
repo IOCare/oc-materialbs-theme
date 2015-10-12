@@ -1,6 +1,5 @@
-# oc-materialbs-theme
-October CMS Material theme with Bootstrap 3+ support
-
+# October CMS Material theme with Bootstrap 3+ support
+oc-materialbs-theme
 
 Material Bootstrap is Material theme designed to work with Bootstrap 3+ . It has full website template based on Modern business layout bootstrap template. We'll soon come with more pages and features for full website with blog and forum support.
 
